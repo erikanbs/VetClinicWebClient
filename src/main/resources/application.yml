@@ -1,0 +1,6 @@
+server:
+  port: 8081
+
+vet-clinic:
+  ribbon:
+    listOfServers: http://localhost:8080
